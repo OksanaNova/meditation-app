@@ -28,10 +28,10 @@
 
 ## Screenshots
 
-![Main screen of the app](./screenshots/screenshot1.png)
-![Meditation: ocean waves](./screenshots/screenshot2.png)
-![Meditation: rain sounds](./screenshots/screenshot3.png)
-![Meditation: forest ambiance](./screenshots/screenshot4.png)
+<img src="./screenshots/screenshot1.png" width="600px">
+<img src="./screenshots/screenshot2.png" width="600px">
+<img src="./screenshots/screenshot3.png" width="600px">
+<img src="./screenshots/screenshot4.png" width="600px">
 
 ## Project Purpose
 
