@@ -1,0 +1,1 @@
+gsap.from(".btn", {opacity: 0, delay: 0.8, stagger: 0.7, duration: 2})

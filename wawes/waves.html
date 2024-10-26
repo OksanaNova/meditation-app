@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waves</title>
+    <link rel="stylesheet" href="waves.css">
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="time">
+            <p class="displayTime">Relax</p>
+        </div>
+
+        <div class="buttons">
+            <button class="btn play"><img class="one" src="play-button.png" alt="play"></button>
+            <button class="btn pause"><img class="one" src="pause-button.png" alt="pause"></button>
+        </div>
+
+        <div class="time">
+            <button class="btn home"><a href="../index.html"><img class="two" src="home-button.png" alt="home"></a></button>
+        </div>
+
+    </div>
+
+    <audio class="myAudio" loop>
+        <source src="sea-waves.mp3" type="audio/mp3">
+    </audio>  
+
+    <video autoplay loop muted defaultMuted playsinline class="myVideo">
+        <source src="ocean-waves.mp4" type="video/mp4">
+    </video>
+
+    <script src="waves.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p {
+    font-family: "REM", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.btn {
+    background: transparent;
+    margin: 20px;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "REM", sans-serif;
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+@media all and (max-width: 600px) {
+
+    .container {
+        margin-top: 100px;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    p, .btn {
+        font-size: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}

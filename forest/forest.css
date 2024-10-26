@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 200px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: rgba(5, 5, 5, 0);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: "REM", sans-serif;
+    font-size: 70px;
+    color: #fff;
+    font-weight: bolder;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.one {
+    width: 50px;
+}
+
+.two {
+    width: 70px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.btn {
+    border: none;
+    background: transparent;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+@media all and (max-width:600px) {
+
+    .container {
+        margin-top: 100px;
+        width: 250px;
+        height: 250px;
+    }
+
+    p {
+        font-size: 40px;
+    }
+
+    .one {
+        width: 30px;
+    }
+
+    .two {
+        width: 40px;
+    }
+
+    .buttons {
+        gap: 20px;
+    }
+}
